@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GreystoneRetargeter",
+	"Description": "IKRig and Retargeter from Greystone to UE5 Manny",
+	"Category": "Game Features",
+	"CreatedBy": "Matthias Krammer",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ExplicitlyLoaded": true,
+	"BuiltInInitialFeatureState": "Active"
+}
