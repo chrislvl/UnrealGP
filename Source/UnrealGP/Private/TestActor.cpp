@@ -3,18 +3,18 @@
 
 #include "TestActor.h"
 
-void ATestActor::DrawSphereAtTargetDestination(FLinearColor Color, float Time)
-{
-	FVector PathDestination = GetPathFollowingComponent()->GetPathDestination();
-	FNavPathSharedPtr Path = GetPathFollowingComponent()->GetPath();
-	DrawDebugSphere(GetWorld(), PathDestination, 100, 12, Color.ToFColorSRGB(), false, Time);
-}
+#include "GP_PathFollowingComponent.h"
 
 // Sets default values
 ATestActor::ATestActor()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+}
+
+ATestActor::ATestActor(const FObjectInitializer& ObjectInitializer) :
+	Super(ObjectInitializer.SetDefaultSubobjectClass<UGP_PathFollowingComponent>(TEXT("PathFollowingComponent")))
+{	
 }
 
 // Called when the game starts or when spawned
