@@ -10,7 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnrealGP.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UnrealGP.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/GP_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/GP_AIController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/TestActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/TestActor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/TestActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/TestActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,16 +150,6 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
       </configuration_5>
-      <configuration_6>
-        <option name="CONFIGURATION" value="" />
-        <option name="PLATFORM" value="" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UnrealGP.vcxproj" />
-        <option name="EXE_PATH" value="$(TargetPath)" />
-        <option name="PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="$(ProjectDir)" />
-        <option name="PASS_PARENT_ENVS" value="1" />
-        <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      </configuration_6>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UnrealGP.vcxproj" />
       <method v="2">
         <option name="Build" />
@@ -173,6 +166,7 @@
       <updated>1662488499935</updated>
       <workItem from="1662488504529" duration="668000" />
       <workItem from="1662548684127" duration="6782000" />
+      <workItem from="1662620299943" duration="4730000" />
     </task>
     <servers />
   </component>
