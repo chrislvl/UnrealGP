@@ -9,17 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/BT_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/BT_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Decorators/IsWeaponAvailable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Decorators/IsWeaponAvailable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/EnemyA.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/EnemyA.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/T6/6YT11Y0TLGM4R50KNUR1GA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/23/494S17SX9T8968HQX5ZCQE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/UQ/0N05X59WE0LYGH1Y9ADB66.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/TL/KM86G7UL7O2SJ9EOS6X1C5.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/TL/KM86G7UL7O2SJ9EOS6X1C5.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/D2/GHL4H9W0FC011SBBB7CDFF.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/D2/GHL4H9W0FC011SBBB7CDFF.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnrealGP.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UnrealGP.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,18 +27,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C++ Project.UnrealGP">
     <configuration name="UE5" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -157,6 +147,16 @@
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
       </configuration_5>
+      <configuration_6>
+        <option name="CONFIGURATION" value="" />
+        <option name="PLATFORM" value="" />
+        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UnrealGP.vcxproj" />
+        <option name="EXE_PATH" value="$(TargetPath)" />
+        <option name="PROGRAM_PARAMETERS" value="" />
+        <option name="WORKING_DIRECTORY" value="$(ProjectDir)" />
+        <option name="PASS_PARENT_ENVS" value="1" />
+        <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      </configuration_6>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UnrealGP.vcxproj" />
       <method v="2">
         <option name="Build" />
@@ -172,6 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662488499935</updated>
       <workItem from="1662488504529" duration="668000" />
+      <workItem from="1662548684127" duration="6782000" />
     </task>
     <servers />
   </component>
