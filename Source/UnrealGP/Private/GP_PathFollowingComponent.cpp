@@ -51,10 +51,10 @@ void UGP_PathFollowingComponent::DrawSphereAtTargetDestination(FLinearColor Colo
 	}
 }
 
-bool UGP_PathFollowingComponent::IsDestinationReachable()
+bool UGP_PathFollowingComponent::IsDestinationReachable(FVector EndLocation)
 {
 	UNavigationSystemV1* NavSystem = FNavigationSystem::GetCurrent<UNavigationSystemV1>(GetWorld());
 	APawn* EnemyPawn = Cast<AAIController>(GetOwner())->GetPawn();
-	FPathFindingQuery Query{GetOwner(), *MyNavData, EnemyPawn->GetActorLocation(), FVector::Zero()};
+	FPathFindingQuery Query{GetOwner(), *MyNavData, EnemyPawn->GetActorLocation(), EndLocation};
 	return NavSystem->TestPathSync(Query);
 }

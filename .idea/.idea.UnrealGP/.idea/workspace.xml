@@ -10,12 +10,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/BT_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/BT_Base.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/GP_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/GP_AIController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/PatrollingComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/PatrollingComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/UpdateEnemyState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/UpdateEnemyState.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Decorators/IsWeaponAvailable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Decorators/IsWeaponAvailable.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

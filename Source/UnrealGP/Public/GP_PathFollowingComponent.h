@@ -43,6 +43,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void DrawSphereAtTargetDestination(FLinearColor Color, float Time);
 
-	UFUNCTION(BlueprintCallable, Category="Pathfinding")
-	bool IsDestinationReachable();
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Pathfinding")
+	bool IsDestinationReachable(FVector EndLocation);
 };
