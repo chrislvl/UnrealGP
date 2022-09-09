@@ -3,6 +3,10 @@
 
 #include "GP_PathFollowingComponent.h"
 
+#include "AIController.h"
+#include "NavigationSystem.h"
+#include "AI/NavigationSystemBase.h"
+
 
 // Sets default values for this component's properties
 UGP_PathFollowingComponent::UGP_PathFollowingComponent()
@@ -21,7 +25,6 @@ void UGP_PathFollowingComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
 }
 
 
@@ -31,7 +34,8 @@ void UGP_PathFollowingComponent::TickComponent(float DeltaTime, ELevelTick TickT
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	if (Debug)
+		DrawSphereAtTargetDestination(DebugColor, .1);
 }
 
 void UGP_PathFollowingComponent::DrawSphereAtTargetDestination(FLinearColor Color, float Time)
@@ -47,3 +51,10 @@ void UGP_PathFollowingComponent::DrawSphereAtTargetDestination(FLinearColor Colo
 	}
 }
 
+bool UGP_PathFollowingComponent::IsDestinationReachable()
+{
+	UNavigationSystemV1* NavSystem = FNavigationSystem::GetCurrent<UNavigationSystemV1>(GetWorld());
+	APawn* EnemyPawn = Cast<AAIController>(GetOwner())->GetPawn();
+	FPathFindingQuery Query{GetOwner(), *MyNavData, EnemyPawn->GetActorLocation(), FVector::Zero()};
+	return NavSystem->TestPathSync(Query);
+}

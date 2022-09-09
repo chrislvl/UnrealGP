@@ -15,6 +15,18 @@ public:
 	// Sets default values for this component's properties
 	UGP_PathFollowingComponent();
 
+	/**
+	 * If true, shows debug sphere for path
+	 */
+	UPROPERTY(EditAnywhere, Category="Debug❤")
+	bool Debug;
+
+	/**
+	 * The color to debug
+	 */
+	UPROPERTY(EditDefaultsOnly, Category="Debug❤")
+	FLinearColor DebugColor;
+	
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -24,6 +36,13 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType
 	                           , FActorComponentTickFunction* ThisTickFunction) override;
 
+	/**
+	 * @param Color Color to use
+	 * @param Time Time used to display spheres
+	 */
 	UFUNCTION(BlueprintCallable)
 	void DrawSphereAtTargetDestination(FLinearColor Color, float Time);
+
+	UFUNCTION(BlueprintCallable, Category="Pathfinding")
+	bool IsDestinationReachable();
 };

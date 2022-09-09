@@ -9,12 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/GP_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/GP_AIController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/TestActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/TestActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/TestActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/TestActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/PatrollingComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/PatrollingComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/UpdateEnemyState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/UpdateEnemyState.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +169,7 @@
       <workItem from="1662488504529" duration="668000" />
       <workItem from="1662548684127" duration="6782000" />
       <workItem from="1662620299943" duration="4730000" />
+      <workItem from="1662706531197" duration="4994000" />
     </task>
     <servers />
   </component>
