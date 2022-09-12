@@ -9,17 +9,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryStructs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryStructs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/ItemBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/ItemPDABase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemPDABase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Inventory.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Inventory.uplugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/EquipWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/EquipWeapon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/Interact.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Tasks/Interact.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/InventoryComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/InventoryComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemPDA.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemPDA.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemStruct.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/InventoryWindow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/InventoryWindow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/ItemSlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/ItemSlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryStructs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryStructs.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/ItemPDABase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemPDABase.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -171,6 +186,7 @@
       <workItem from="1662706531197" duration="4994000" />
       <workItem from="1662965341731" duration="717000" />
       <workItem from="1662966227756" duration="3415000" />
+      <workItem from="1662980052421" duration="3541000" />
     </task>
     <servers />
   </component>
