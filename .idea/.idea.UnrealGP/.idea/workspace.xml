@@ -9,13 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryStructs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryStructs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/BT_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/BT_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/BT/EquipItem.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/AI/Decorators/IsWeaponAvailable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/AI/Decorators/IsWeaponAvailable.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/GP_PathFollowingComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Inventory.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Inventory.uplugin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +169,8 @@
       <workItem from="1662548684127" duration="6782000" />
       <workItem from="1662620299943" duration="4730000" />
       <workItem from="1662706531197" duration="4994000" />
+      <workItem from="1662965341731" duration="717000" />
+      <workItem from="1662966227756" duration="3415000" />
     </task>
     <servers />
   </component>
