@@ -14,15 +14,12 @@ UInventoryBase::UInventoryBase()
 }
 
 
-
-
 // Called when the game starts
 void UInventoryBase::BeginPlay()
 {
 	Super::BeginPlay();
 
 	// ...
-	
 }
 
 
@@ -39,3 +36,10 @@ TArray<FItemStruct>& UInventoryBase::GetItems()
 	return Items;
 }
 
+bool UInventoryBase::AddItem(const FItemStruct& NewItem)
+{
+	Items.Add(NewItem);
+	PRINT;
+	OnInventoryChanged.Broadcast(NewItem);
+	return true;
+}

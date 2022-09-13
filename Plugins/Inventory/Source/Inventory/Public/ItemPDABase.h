@@ -15,5 +15,10 @@ class INVENTORY_API UItemPDABase : public UPrimaryDataAsset{
 public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="Basic")
 	FText Text;
-	
+
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="Basic")
+	UStaticMesh* Mesh;
+
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="Basic")
+	UTexture2D* Thumbnail;
 };

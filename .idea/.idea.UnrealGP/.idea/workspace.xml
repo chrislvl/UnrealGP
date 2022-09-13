@@ -8,13 +8,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="" />
+    <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_Axe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_Axe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_Sword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_Sword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/64/VKWAHMCIVB10NUFMZGBET3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/64/VKWAHMCIVB10NUFMZGBET3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZG/GZBAXATO8GD5RS8P7W1EF0.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZG/GZBAXATO8GD5RS8P7W1EF0.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/WM/U0F12YZFS7ZKFX7RHRECP9.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/WM/U0F12YZFS7ZKFX7RHRECP9.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/PE/GZS0BOLB00U0IZMJI9W65V.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/PE/GZS0BOLB00U0IZMJI9W65V.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/Equipment/EquippedItemComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/Equipment/EquippedItemComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/InventoryComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/InventoryComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemPDA.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemPDA.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/InventoryWindow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/InventoryWindow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/ItemSlot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/UI/ItemSlot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemPDABase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemPDABase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GP_PathFollowingComponent.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files/Epic Games/UE_5.0/Engine/Source/Runtime/Engine/Private/UnrealEngine.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/ItemPDABase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemPDABase.h" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -170,6 +190,7 @@
       <workItem from="1662966227756" duration="3415000" />
       <workItem from="1662980052421" duration="4157000" />
       <workItem from="1663050170973" duration="6705000" />
+      <workItem from="1663066696779" duration="4424000" />
     </task>
     <servers />
   </component>
