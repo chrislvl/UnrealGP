@@ -12,6 +12,8 @@ UCLASS()
 class INVENTORY_API UItemPDABase : public UPrimaryDataAsset{
 	GENERATED_BODY()
 
+public:
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="Basic")
+	FText Text;
 	
-
 };

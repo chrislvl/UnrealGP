@@ -7,12 +7,12 @@
 #include "Components/ActorComponent.h"
 #include "InventoryBase.generated.h"
 
-UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
+UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class INVENTORY_API UInventoryBase : public UActorComponent{
 	GENERATED_BODY()
 
 	FItemStruct Item;
-public:
+public:	
 	// Sets default values for this component's properties
 	UInventoryBase();
 
@@ -25,5 +25,9 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType
 	                           , FActorComponentTickFunction* ThisTickFunction) override;
 
-
+	UFUNCTION(BlueprintCallable)
+	TArray<FItemStruct>& GetItems();
+	
+private:
+	TArray<FItemStruct> Items;
 };

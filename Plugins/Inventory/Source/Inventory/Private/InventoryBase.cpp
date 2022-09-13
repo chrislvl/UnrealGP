@@ -3,7 +3,6 @@
 
 #include "InventoryBase.h"
 
-
 // Sets default values for this component's properties
 UInventoryBase::UInventoryBase()
 {
@@ -33,5 +32,10 @@ void UInventoryBase::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+TArray<FItemStruct>& UInventoryBase::GetItems()
+{
+	return Items;
 }
 

@@ -6,7 +6,7 @@
 USTRUCT(BlueprintType)
 struct FItemStruct{
 	GENERATED_BODY()
-		
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	UItemPDABase* ItemPDA;
 
