@@ -15,7 +15,6 @@ UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class INVENTORY_API UInventoryBase : public UActorComponent{
 	GENERATED_BODY()
 
-	FItemStruct Item;
 public:
 	// Sets default values for this component's properties
 	UInventoryBase();
@@ -37,8 +36,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 	bool AddItem(const FItemStruct& NewItem);
 
-	FItemStruct CreateItem(FItemStruct Item);
-
+	UFUNCTION(BlueprintCallable)
+	bool RemoveItem(const FItemStruct& Item); 
+		
+	UFUNCTION(BlueprintCallable)
+	FItemStruct CreateItem(const FItemStruct& Item);
 	
 	UPROPERTY(EditDefaultsOnly)
 	bool bDebug;
