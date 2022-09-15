@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "GameplayTagAssetInterface.h"
+#include "GP21_Interface.h"
 #include "InventoryStructs.h"
 #include "Components/ActorComponent.h"
 #include "InventoryBase.generated.h"
@@ -12,7 +14,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnInventoryChangedSignature, FItemStruct, Item);
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
-class INVENTORY_API UInventoryBase : public UActorComponent{
+class INVENTORY_API UInventoryBase : public UActorComponent, public IGP21_Interface{
 	GENERATED_BODY()
 
 public:
@@ -33,25 +35,29 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	TArray<FItemStruct>& GetItems();
 
-	UFUNCTION(BlueprintCallable)	
+	UFUNCTION(BlueprintCallable)
 	bool TransferItem(UInventoryBase* ToInventory, const FItemStruct& Item);
 
 	UFUNCTION(BlueprintCallable)
 	bool AddItem(const FItemStruct& NewItem);
 
 	UFUNCTION(BlueprintCallable)
-	bool RemoveItem(const FItemStruct& Item); 
-		
+	bool RemoveItem(const FItemStruct& Item);
+
 	UFUNCTION(BlueprintCallable)
 	FItemStruct CreateItem(const FItemStruct& Item);
-	
+
 	UPROPERTY(EditDefaultsOnly)
 	bool bDebug;
 
 	UPROPERTY(EditDefaultsOnly)
 	FLinearColor DebugColor;
+	UFUNCTION(BlueprintCallable)
+	void CallInterface();
 private:
 	TArray<FItemStruct> Items;
 
 	void Debug();
+
+	virtual FString TextToPrint() override;
 };

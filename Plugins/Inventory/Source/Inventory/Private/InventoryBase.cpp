@@ -3,6 +3,7 @@
 
 #include "InventoryBase.h"
 
+
 // Sets default values for this component's properties
 UInventoryBase::UInventoryBase()
 {
@@ -79,4 +80,15 @@ void UInventoryBase::Debug()
 	{
 		PRINT(0, DebugColor.ToFColorSRGB(), ItemIndex.ItemPDA->Text.ToString());
 	}
+}
+
+FString UInventoryBase::TextToPrint()
+{
+	return "Hello World from inventory";
+}
+
+void UInventoryBase::CallInterface()
+{
+	IGP21_Interface* GP21 = Cast<IGP21_Interface>(GetOwner());
+	GP21->PrintSomething();
 }
