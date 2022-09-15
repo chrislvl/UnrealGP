@@ -7,7 +7,7 @@ USTRUCT(BlueprintType)
 struct FItemStruct{
 	GENERATED_BODY()
 
-	FItemStruct(): ItemPDA(nullptr), Durability(0)
+	FItemStruct(): ItemPDA(nullptr), Durability(0), Id(FGuid::NewGuid())
 	{
 	}
 
@@ -26,10 +26,11 @@ struct FItemStruct{
 	UPROPERTY(BlueprintReadWrite)
 	float Durability;
 
+	UPROPERTY(VisibleAnywhere)
 	FGuid Id;
 
 	bool operator ==(const FItemStruct& Other) const
 	{
-		return this->Id == Other.Id;
+		return this->Id == Other.Id && ItemPDA;
 	}
 };
