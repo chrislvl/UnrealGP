@@ -4,18 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
-#include "ItemPDABase.generated.h"
+#include "PDAItemBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class INVENTORY_API UItemPDABase : public UPrimaryDataAsset{
+class INVENTORY_API UPDAItemBase : public UPrimaryDataAsset{
 	GENERATED_BODY()
 
 public:
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="Basic")
-	FText Text;
+	FText Name;
 
 	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category="Basic")
 	UStaticMesh* Mesh;

@@ -1,5 +1,5 @@
 #pragma once
-#include "ItemPDABase.h"
+#include "PDAItemBase.h"
 
 #include "InventoryStructs.generated.h"
 
@@ -11,17 +11,17 @@ struct FItemStruct{
 	{
 	}
 
-	FItemStruct(UItemPDABase* ItemPda): ItemPDA(ItemPda), Durability(100), Id(FGuid::NewGuid())
+	FItemStruct(UPDAItemBase* ItemPda): ItemPDA(ItemPda), Durability(100), Id(FGuid::NewGuid())
 	{
 	}
 
-	FItemStruct(UItemPDABase* ItemPda, float Durability) : ItemPDA(ItemPda), Durability(Durability),
+	FItemStruct(UPDAItemBase* ItemPda, float Durability) : ItemPDA(ItemPda), Durability(Durability),
 	                                                       Id(FGuid::NewGuid())
 	{
 	}
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	UItemPDABase* ItemPDA;
+	UPDAItemBase* ItemPDA;
 
 	UPROPERTY(BlueprintReadWrite)
 	float Durability;
@@ -33,4 +33,6 @@ struct FItemStruct{
 	{
 		return this->Id == Other.Id && ItemPDA;
 	}
+
+	bool IsValid() const;
 };

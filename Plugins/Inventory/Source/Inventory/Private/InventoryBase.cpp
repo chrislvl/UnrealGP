@@ -49,9 +49,13 @@ bool UInventoryBase::TransferItem(UInventoryBase* ToInventory, const FItemStruct
 
 bool UInventoryBase::AddItem(const FItemStruct& NewItem)
 {
-	Items.Add(NewItem);
-	OnInventoryChanged.Broadcast(NewItem);
-	return true;
+	if (NewItem.IsValid())
+	{
+		Items.Add(NewItem);
+		OnInventoryChanged.Broadcast(NewItem);
+		return true;
+	}
+	return false;
 }
 
 bool UInventoryBase::RemoveItem(const FItemStruct& Item)
@@ -78,7 +82,8 @@ void UInventoryBase::Debug()
 {
 	for (const FItemStruct ItemIndex : GetItems())
 	{
-		PRINT(0, DebugColor.ToFColorSRGB(), ItemIndex.ItemPDA->Text.ToString());
+		FString Txt = FString::Printf(TEXT("Item Name: %s  %f"), *ItemIndex.ItemPDA->Name.ToString(), ItemIndex.Durability);
+		PRINT(0, DebugColor.ToFColorSRGB(), Txt);
 	}
 }
 
@@ -89,13 +94,13 @@ FString UInventoryBase::TextToPrint()
 
 void UInventoryBase::CallInterface()
 {
-	if(GetOwner()->GetClass()->ImplementsInterface(UGP21_Interface::StaticClass()))
+	if (GetOwner()->GetClass()->ImplementsInterface(UGP21_Interface::StaticClass()))
 	{
 		//execute interface
 	}
 
 	IGP21_Interface* GP21 = Cast<IGP21_Interface>(GetOwner());
-	if(GP21)
+	if (GP21)
 	{
 		//execute interface
 	}

@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameplayTagAssetInterface.h"
 #include "GP21_Interface.h"
 #include "InventoryStructs.h"
 #include "Components/ActorComponent.h"
@@ -52,8 +51,10 @@ public:
 
 	UPROPERTY(EditDefaultsOnly)
 	FLinearColor DebugColor;
+
 	UFUNCTION(BlueprintCallable)
 	void CallInterface();
+
 private:
 	TArray<FItemStruct> Items;
 
