@@ -8,7 +8,7 @@
 #include "Components/ActorComponent.h"
 #include "InventoryBase.generated.h"
 
-#define PRINT(Time,Color,Text) GEngine->AddOnScreenDebugMessage(-1, Time, Color, Text);
+#define PRINT(Time,Color,Text, ...) GEngine->AddOnScreenDebugMessage(-1, Time, Color, FString::Printf(TEXT(Text), __VA_ARGS__));
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnInventoryChangedSignature, FItemStruct, Item);
 

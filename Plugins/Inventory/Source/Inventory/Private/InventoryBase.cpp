@@ -82,8 +82,7 @@ void UInventoryBase::Debug()
 {
 	for (const FItemStruct ItemIndex : GetItems())
 	{
-		FString Txt = FString::Printf(TEXT("Item Name: %s  %f"), *ItemIndex.ItemPDA->Name.ToString(), ItemIndex.Durability);
-		PRINT(0, DebugColor.ToFColorSRGB(), Txt);
+		PRINT(0, DebugColor.ToFColorSRGB(), "Item Name: %s  %f", *ItemIndex.ItemPDA->Name.ToString(), ItemIndex.Durability);
 	}
 }
 
