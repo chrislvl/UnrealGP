@@ -89,6 +89,16 @@ FString UInventoryBase::TextToPrint()
 
 void UInventoryBase::CallInterface()
 {
+	if(GetOwner()->GetClass()->ImplementsInterface(UGP21_Interface::StaticClass()))
+	{
+		//execute interface
+	}
+
 	IGP21_Interface* GP21 = Cast<IGP21_Interface>(GetOwner());
+	if(GP21)
+	{
+		//execute interface
+	}
+
 	GP21->PrintSomething();
 }
