@@ -42,3 +42,8 @@ void AColorCubeBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLi
 
 	DOREPLIFETIME(AColorCubeBase, CurrentColor);
 }
+
+void AColorCubeBase::Interact_Implementation(ACharacter* Interactor)
+{
+	ChangeColor();
+}
