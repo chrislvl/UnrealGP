@@ -7,7 +7,7 @@
 #include "InteractIF.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(BlueprintType)
+UINTERFACE(BlueprintType, MinimalAPI)
 class UInteractIF : public UInterface{
 	GENERATED_BODY()
 };

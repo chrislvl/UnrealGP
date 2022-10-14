@@ -7,7 +7,7 @@
 #include "CharacterBase.generated.h"
 
 UCLASS()
-class INVENTORY_API ACharacterBase : public ACharacter{
+class UNREALGP_API ACharacterBase : public ACharacter{
 	GENERATED_BODY()
 
 public:
