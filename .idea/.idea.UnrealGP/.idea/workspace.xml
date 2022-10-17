@@ -11,8 +11,8 @@
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

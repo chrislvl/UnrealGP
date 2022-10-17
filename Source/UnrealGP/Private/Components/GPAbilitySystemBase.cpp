@@ -32,14 +32,15 @@ bool UGPAbilitySystemBase::GrantAbilities()
 {
 	for (const TSubclassOf<UGameplayAbility>& Ability : GrantedAbilities)
 	{
-		if (Ability == nullptr)
-		{
-			GEngine->AddOnScreenDebugMessage(
-				-1, 10, FColor::Red,
-				FString::Printf(TEXT("%s has empty ability slot"), *GetOwner()->GetName())
-			);
-		}
+		checkf(Ability, TEXT("Missing ability slot %s"), *GetOwner()->GetName())
 
+		const FGameplayAbilitySpec* FoundSpec = FindAbilitySpecFromClass(Ability);
+		if (FoundSpec)
+		{
+			if (FoundSpec->Ability->GetClass() == Ability)
+				continue;
+		}
+		
 		FGameplayAbilitySpec AbilitySpec{Ability};
 		GiveAbility(AbilitySpec);
 	}
