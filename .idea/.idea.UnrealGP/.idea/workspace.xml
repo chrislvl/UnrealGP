@@ -9,20 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/AssetManagerBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/PlayerControllerBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/AssetManagerBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/PlayerControllerBase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/MyPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/MyPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/CharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/CharacterBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/CharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/CharacterBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
