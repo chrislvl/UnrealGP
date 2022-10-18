@@ -3,6 +3,8 @@
 
 #include "InventoryBase.h"
 
+#include "Net/UnrealNetwork.h"
+
 
 // Sets default values for this component's properties
 UInventoryBase::UInventoryBase()
@@ -11,6 +13,7 @@ UInventoryBase::UInventoryBase()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
+	SetIsReplicatedByDefault(true);
 	// ...
 }
 
@@ -82,13 +85,20 @@ void UInventoryBase::Debug()
 {
 	for (const FItemStruct ItemIndex : GetItems())
 	{
-		PRINT(0, DebugColor.ToFColorSRGB(), "Item Name: %s  %f", *ItemIndex.ItemPDA->Name.ToString(), ItemIndex.Durability);
+		PRINT(0, DebugColor.ToFColorSRGB(), "Item Name: %s  %f", *ItemIndex.ItemPDA->Name.ToString()
+		      , ItemIndex.Durability);
 	}
 }
 
 FString UInventoryBase::TextToPrint()
 {
 	return "Hello World from inventory";
+}
+
+void UInventoryBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(UInventoryBase, Items)
 }
 
 void UInventoryBase::CallInterface()

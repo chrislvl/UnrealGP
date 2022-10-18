@@ -10,9 +10,20 @@
   <component name="ChangeListManager">
     <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_Axe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_Axe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_Sword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_Sword.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Test.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/64/VKWAHMCIVB10NUFMZGBET3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ED/B2CUUHOA37AYP9UD9PSED9.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ED/B2CUUHOA37AYP9UD9PSED9.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/SM/8OSYMC58V3IUPJGBSEJDHZ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/SM/8OSYMC58V3IUPJGBSEJDHZ.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/JN/E9M2HZDX5SKZWZAQ2UZ69S.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/JN/E9M2HZDX5SKZWZAQ2UZ69S.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/TL/RNWCQ6BMJ84KEMW92VEVUK.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/TL/RNWCQ6BMJ84KEMW92VEVUK.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/PE/GZS0BOLB00U0IZMJI9W65V.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/PE/GZS0BOLB00U0IZMJI9W65V.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/ItemBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +207,7 @@
       <workItem from="1665658800693" duration="661000" />
       <workItem from="1665730759467" duration="1905000" />
       <workItem from="1665745072812" duration="4520000" />
+      <workItem from="1666076396480" duration="3025000" />
     </task>
     <servers />
   </component>
