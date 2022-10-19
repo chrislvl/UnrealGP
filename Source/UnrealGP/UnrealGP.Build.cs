@@ -15,7 +15,7 @@ public class UnrealGP : ModuleRules
 			"InputCore",
 			"AIModule",
 			"NavigationSystem",
-			"Inventory", 
+			"Inventory"
 
 		});
 

@@ -8,13 +8,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="">
+    <list default="true" id="65bec11c-cd67-47d2-9a9c-4c63778b1036" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Attributes/GPAttributeBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Attributes/GPAttributeBase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Enemies/VitalComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/VitalComponent.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Attack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Attack.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/Equipment/EquippedItemComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/Equipment/EquippedItemComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/Equipment/ItemPDA_Equipable.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/Equipment/ItemPDA_Equipable.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/AssetManagerBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/AssetManagerBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
