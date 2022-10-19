@@ -20,7 +20,7 @@ class UNREALGP_API UGPAttributeBase : public UAttributeSet{
 
 public:
 	UPROPERTY(BlueprintReadOnly, Category="Attributes|Health", ReplicatedUsing=OnRep_Health)
-	FGameplayAttributeData Health = 100;
+	FGameplayAttributeData Health = 150;
 	ATTRIBUTE_ACCESSORS(UGPAttributeBase, Health)
 
 	UPROPERTY(BlueprintReadOnly, Category="Attributes|Health", ReplicatedUsing=OnRep_MaxHealth)

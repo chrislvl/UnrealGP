@@ -26,6 +26,14 @@ void UGPAbilitySystemBase::BeginPlay()
 			FString::Printf(TEXT("%s has no abilities"), *GetOwner()->GetName())
 		);
 	}
+
+	if (!GrantAttributes())
+	{
+		GEngine->AddOnScreenDebugMessage(
+			-1, 10, FColor::Red,
+			FString::Printf(TEXT("%s has no attributes"), *GetOwner()->GetName())
+		);
+	}
 }
 
 bool UGPAbilitySystemBase::GrantAbilities()
@@ -40,10 +48,25 @@ bool UGPAbilitySystemBase::GrantAbilities()
 			if (FoundSpec->Ability->GetClass() == Ability)
 				continue;
 		}
-		
+
 		FGameplayAbilitySpec AbilitySpec{Ability};
 		GiveAbility(AbilitySpec);
 	}
 
 	return !GrantedAbilities.IsEmpty();
+}
+
+bool UGPAbilitySystemBase::GrantAttributes()
+{
+	if (GrantedAttribute.IsEmpty())
+		return false;
+
+	TArray<UAttributeSet*> AttributeSets;
+	for (auto T : GrantedAttribute)
+	{
+		T.GetDefaultObject()->InitFromMetaDataTable(DTAttribute);
+		AttributeSets.AddUnique(T.GetDefaultObject());
+		AddAttributeSetSubobject(T.GetDefaultObject());
+	}
+	return true;
 }

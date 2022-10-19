@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AbilitySystemComponent.h"
+#include "Attributes/GPAttributeBase.h"
 #include "GPAbilitySystemBase.generated.h"
 
 
@@ -22,7 +23,14 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly)
 	TArray<TSubclassOf<UGameplayAbility>> GrantedAbilities;
-	
+
+	UPROPERTY(EditDefaultsOnly)
+	TArray<TSubclassOf<UAttributeSet>> GrantedAttribute;
+
+	UPROPERTY(EditDefaultsOnly)
+	UDataTable* DTAttribute;
 private:
 	bool GrantAbilities();
+
+	bool GrantAttributes();
 };

@@ -9,13 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65bec11c-cd67-47d2-9a9c-4c63778b1036" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Attributes/GPAttributeBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Attributes/GPAttributeBase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Enemies/VitalComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Enemies/VitalComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Attack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/GA_Attack.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/AssetManagerBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/AssetManagerBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/Attributes/GPAttributeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Attributes/GPAttributeBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f065a519-5044-4210-a64c-0fd92d022729" name="Changes" comment="" />
+      <changelist id="65bec11c-cd67-47d2-9a9c-4c63778b1036" name="Changes" comment="" />
       <created>1662488499935</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -201,6 +199,8 @@
       <workItem from="1665745072812" duration="4520000" />
       <workItem from="1666076396480" duration="3025000" />
       <workItem from="1666090775877" duration="1320000" />
+      <workItem from="1666170019834" duration="823000" />
+      <workItem from="1666177165131" duration="4326000" />
     </task>
     <servers />
   </component>
