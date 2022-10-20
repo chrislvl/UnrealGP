@@ -29,6 +29,6 @@ void UGPAttributeBase::PreAttributeChange(const FGameplayAttribute& Attribute, f
 
 	if (Attribute == GetHealthAttribute())
 	{
-		NewValue = FMath::Clamp(NewValue, 0, GetMaxHealth());
+		NewValue = FMath::Clamp(NewValue, -20, GetMaxHealth());
 	}
 }

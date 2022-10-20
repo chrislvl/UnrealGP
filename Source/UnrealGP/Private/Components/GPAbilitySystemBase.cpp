@@ -61,12 +61,16 @@ bool UGPAbilitySystemBase::GrantAttributes()
 	if (GrantedAttribute.IsEmpty())
 		return false;
 
-	TArray<UAttributeSet*> AttributeSets;
-	for (auto T : GrantedAttribute)
+	for (TSubclassOf<UAttributeSet>& Attribute : GrantedAttribute)
 	{
-		T.GetDefaultObject()->InitFromMetaDataTable(DTAttribute);
-		AttributeSets.AddUnique(T.GetDefaultObject());
-		AddAttributeSetSubobject(T.GetDefaultObject());
+		const bool HasAttribute = GetAttributeSubobject(Attribute) != nullptr;
+
+		if (HasAttribute)
+			continue;
+
+		UAttributeSet* NewAttribute = NewObject<UAttributeSet>(GetOwner(), Attribute);
+		NewAttribute->InitFromMetaDataTable(DTAttribute);
+		AddAttributeSetSubobject(NewAttribute);
 	}
 	return true;
 }
