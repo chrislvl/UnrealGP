@@ -10,12 +10,12 @@
   <component name="ChangeListManager">
     <list default="true" id="65bec11c-cd67-47d2-9a9c-4c63778b1036" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_HealthOrb.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_HealthOrb.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_Axe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_Axe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/DA_Sword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/DA_Sword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/Abilities/GA_CollectHealtOrb.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/Abilities/GA_CollectHealtOrb.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/Abilities/GA_CollectItem.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/Abilities/GA_CollectItem.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/DT_BaseAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/DT_BaseAttributes.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/MyPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/MyPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/Components/GPAbilitySystemBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/Components/GPAbilitySystemBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +204,7 @@
       <workItem from="1666170019834" duration="823000" />
       <workItem from="1666177165131" duration="4326000" />
       <workItem from="1666335563836" duration="3222000" />
+      <workItem from="1666350152477" duration="657000" />
     </task>
     <servers />
   </component>
