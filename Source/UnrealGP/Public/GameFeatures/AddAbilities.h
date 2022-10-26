@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFeatureAction.h"
 #include "Abilities/GameplayAbility.h"
+#include "Components/GameFrameworkComponentManager.h"
 #include "AddAbilities.generated.h"
 
 
@@ -18,8 +19,6 @@ struct FGameFeatureAbilityEntry{
 
 	UPROPERTY(EditAnywhere)
 	TSoftClassPtr<UGameplayAbility> AbilityClass;
-
-	TUniquePtr<UObject*> Asd;
 };
 
 
@@ -32,8 +31,12 @@ protected:
 	TArray<FGameFeatureAbilityEntry> Abilities;
 	FDelegateHandle GameInstanceHandle;
 
+	TArray<TSharedPtr<FComponentRequestHandle>> ExtensionHandler;	
+
 	virtual void OnGameFeatureActivating(FGameFeatureActivatingContext& Context) override;
 	virtual void OnGameFeatureDeactivating(FGameFeatureDeactivatingContext& Context) override;
+	
+	void HandleGameInstanceStart(UGameInstance* GameInstance);
 
-	void HandleGameInstanceStart(UGameInstance* GameInstance, int32 Entry, double CoolEntry);
+	void HandleExtensionDelegate(AActor* ActorClass, FName Name, int32 EntryIndex);
 };

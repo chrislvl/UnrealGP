@@ -16,7 +16,9 @@ public class UnrealGP : ModuleRules
 			"AIModule",
 			"NavigationSystem",
 			"Inventory",
-			"GameFeatures"
+			"GameFeatures",
+			"ModularGameplay"
+			
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[]

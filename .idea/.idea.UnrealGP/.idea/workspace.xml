@@ -9,10 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65bec11c-cd67-47d2-9a9c-4c63778b1036" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GameFeatures/AddAbilities.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/GameFeatures/AddAbilities.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnrealGP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/MGF_Sprint/Content/GrantSprintingAbility.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/GameFeatures/MGF_Sprint/Content/MGF_Sprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GameFeatures/MGF_Sprint/Content/MGF_Sprint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Private/GameFeatures/AddAbilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Private/GameFeatures/AddAbilities.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UnrealGP/Public/GameFeatures/AddAbilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/Public/GameFeatures/AddAbilities.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UnrealGP/UnrealGP.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,6 +205,7 @@
       <workItem from="1666177165131" duration="4326000" />
       <workItem from="1666335563836" duration="3222000" />
       <workItem from="1666350152477" duration="657000" />
+      <workItem from="1666781958203" duration="4191000" />
     </task>
     <servers />
   </component>
