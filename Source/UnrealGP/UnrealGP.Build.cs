@@ -17,7 +17,8 @@ public class UnrealGP : ModuleRules
 			"NavigationSystem",
 			"Inventory",
 			"GameFeatures",
-			"ModularGameplay"
+			"ModularGameplay",
+			"EnhancedInput"
 			
 		});
 
