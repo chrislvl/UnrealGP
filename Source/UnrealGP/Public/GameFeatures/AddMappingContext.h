@@ -6,29 +6,24 @@
 #include "GameFeatureAction.h"
 #include "InputMappingContext.h"
 #include "Components/GameFrameworkComponentManager.h"
+#include "GameFramework/Character.h"
 #include "AddMappingContext.generated.h"
 
 USTRUCT()
-struct FGameFeatureMappingEntry
-{
+struct FGameFeatureMappingEntry{
 	GENERATED_BODY()
 
 	UPROPERTY(EditAnywhere)
-	TSoftClassPtr<APlayerController> ControllerClass;
+	TSoftClassPtr<ACharacter> CharacterClass = ACharacter::StaticClass();
 
 	UPROPERTY(EditAnywhere)
 	UInputMappingContext* MappingContext;
 };
 
 UCLASS()
-class UNREALGP_API UAddMappingContext : public UGameFeatureAction
-{
+class UNREALGP_API UAddMappingContext : public UGameFeatureAction{
 	GENERATED_BODY()
 public:
-
-	UPROPERTY(EditAnywhere)
-	UInputMappingContext* MappingContexttt;
-	
 	UPROPERTY(EditAnywhere)
 	TArray<FGameFeatureMappingEntry> MappingEntries;
 	FDelegateHandle GameInstanceHandle;
