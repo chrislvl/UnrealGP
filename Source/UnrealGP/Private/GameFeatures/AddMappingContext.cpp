@@ -5,6 +5,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "Components/GameFrameworkComponentManager.h"
 #include "GameFramework/Character.h"
+#include "Kismet/GameplayStatics.h"
 
 void UAddMappingContext::OnGameFeatureActivating(FGameFeatureActivatingContext& Context)
 {
@@ -39,4 +40,5 @@ void UAddMappingContext::HandleExtensionDelegate(AActor* ActorClass, FName Name,
 		);
 
 	InputSubsystem->AddMappingContext(MappingEntries[EntryIndex].MappingContext, 1);
+
 }
